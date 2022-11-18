@@ -1,9 +1,10 @@
 package com.petersEntreprise.JunitMockito.MockitoTest;
 
-import com.petersEntreprise.JunitMockito.Mockito.AuthentificationService;
-import com.petersEntreprise.JunitMockito.Mockito.LoginController;
+import com.petersEntreprise.JunitMockito.Mockito.service.AuthentificationService;
+import com.petersEntreprise.JunitMockito.Mockito.controller.LoginController;
 import org.junit.Assert;
 import org.junit.Before;
+import org.junit.Ignore;
 import org.junit.Test;
 import org.mockito.Mockito;
 
@@ -19,6 +20,12 @@ public class MockitoTest
     {
         this.service = Mockito.mock(AuthentificationService.class);
         this.controller = new LoginController(this.service);
+    }
+
+    @Ignore
+    public void testIgnorer()
+    {
+        throw new RuntimeException();
     }
 
     @Test

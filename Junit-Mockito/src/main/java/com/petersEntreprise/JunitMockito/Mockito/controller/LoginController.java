@@ -1,4 +1,6 @@
-package com.petersEntreprise.JunitMockito.Mockito;
+package com.petersEntreprise.JunitMockito.Mockito.controller;
+
+import com.petersEntreprise.JunitMockito.Mockito.service.AuthentificationService;
 
 public class LoginController
 {

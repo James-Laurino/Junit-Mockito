@@ -1,7 +1,7 @@
 package com.petersEntreprise.JunitMockito.MockitoTest;
 
-import com.petersEntreprise.JunitMockito.Mockito.AuthentificationService;
-import com.petersEntreprise.JunitMockito.Mockito.ClientRepository;
+import com.petersEntreprise.JunitMockito.Mockito.service.AuthentificationService;
+import com.petersEntreprise.JunitMockito.Mockito.repository.ClientRepository;
 import org.junit.Before;
 import org.junit.Test;
 import org.mockito.Mockito;
